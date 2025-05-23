@@ -296,6 +296,10 @@ svg * {
   }
 }
 
+html.is-lock {
+  overflow: hidden;
+}
+
 body {
   font-size: clamp(0.875rem, 0.8112745098rem + 0.2614379085vw, 1.125rem);
   font-family: var(--font-family-base);
@@ -350,6 +354,10 @@ h5, .h5 {
 
 h6, .h6 {
   font-size: clamp(1rem, 0.9362745098rem + 0.2614379085vw, 1.25rem);
+}
+
+p {
+  --paragraphMarginBottom: 1.5rem;
 }
 
 a,
